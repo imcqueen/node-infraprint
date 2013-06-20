@@ -1,0 +1,24 @@
+{
+  "author": {
+    "name": "Iain McQueen",
+    "email": "iain@swiperoo.com",
+    "url": "http://www.iainmcqueen.com/"
+  },
+  "name": "infraprint",
+  "description": "Infraprint API wrapper",
+  "version": "0.0.1",
+  "homepage": "https://github.com/imcqueen/node-infraprint",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imcqueen/node-infraprint"
+  },
+  "engines": {
+    "node": ">= v0.4.0"
+  },
+  "main": "lib/main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "readme": "",
+  "_id": "infrprint@0.0.1",
+  "_from": "infraprint"
+}
