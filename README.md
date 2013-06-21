@@ -52,14 +52,10 @@ called with an error code (if any) and then the response.
    * `.create(print_job)` - create a print job
    * `.retrieve(job_id)` - retrieve a print job by job id
    * `.list(count, offset)` - list print jobs
-* `infraprint.paper_types` - [Paper Types](https://www.infraprint.com/docs#paper_types)
-   * `.list()` - retrieve a list of paper types
-* `infraprint.paper_sizes` - [Paper Sizes](https://www.infraprint.com/docs#paper_sizes)
-   * `.list()` - retrieve a list of paper sizes
+* `infraprint.settings` - [Paper Types](https://www.infraprint.com/docs#settings)
+   * `.list()` - retrieve a list of paper settings and sizes
 * `infraprint.packagings` - [Packagings](https://www.infraprint.com/docs#packagings)
    * `.list()` - retrieve a list of packagings
-* `infraprint.paper_colors` - [Packagings](https://www.infraprint.com/docs#paper_colors)
-   * `.list()` - retrieve a list of paper colors
 * `infraprint.services` - [Packagings](https://www.infraprint.com/docs#services)
    * `.list()` - retrieve a list of services
 

@@ -17,9 +17,7 @@ vows.describe("Object API").addBatch({
         	infraprint.objects.create({
 				name: "Sample",
 				file: "https://www.infraprint.com/goblue.pdf",
-				paper_type_id:"3",
-				paper_size_id:"2",
-				paper_color_id:"2"
+				setting_id:"201"
 			}, 
 			this.callback);
         },
