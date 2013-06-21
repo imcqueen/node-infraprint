@@ -61,7 +61,9 @@ called with an error code (if any) and then the response.
 
 ## Tests
 
-coming soon...
+To run the tests, install vows with `npm install vows` and then run
+
+   INFRAPRINT_API=your-test-api-key vows test/*
 
 ## Author
 
