@@ -18,7 +18,6 @@
   "main": "lib/main.js",
   "dependencies": {},
   "devDependencies": {},
-  "readme": "",
-  "_id": "infrprint@0.0.1",
+  "_id": "infraprint@0.0.1",
   "_from": "infraprint"
 }

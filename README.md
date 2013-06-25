@@ -38,20 +38,20 @@ Converted from the [node-stripe](https://github.com/abh/node-stripe) API by Ask 
 All methods takes a callback as their last parameter. The callback is
 called with an error code (if any) and then the response.
 
-* `infraprint.addresses` - create, retrieve, delete and list addresses [address object](https://www.infraprint.com/docs#addresses)
+* `infraprint.addresses` - create, retrieve, delete and list addresses [address](https://www.infraprint.com/docs#addresses)
    * `.create(address)` - create an address
    * `.retrieve(address_id)` - retrieve the given address
    * `.del(address_id)` - delete the given address
    * `.list(data)` - list addresses
-* `infraprint.objects` - create, retrieve, delete and list print objects [print object format](https://www.infraprint.com/docs#objects)
+* `infraprint.objects` - create, retrieve, delete and list print objects [object](https://www.infraprint.com/docs#objects)
    * `.create(object)` - create a print object
    * `.retrieve(object_id)` - retrieve a print object
    * `.del(object_id)` - delete a print object
-   * `.list(count, offset)` - list print objects
-* `infraprint.print_jobs` - create, retrieve and list print_jobs [print job format](https://www.infraprint.com/docs#jobs)
+   * `.list(data)` - list print objects
+* `infraprint.print_jobs` - create, retrieve and list print_jobs [job](https://www.infraprint.com/docs#jobs)
    * `.create(print_job)` - create a print job
    * `.retrieve(job_id)` - retrieve a print job by job id
-   * `.list(count, offset)` - list print jobs
+   * `.list(data)` - list print jobs
 * `infraprint.settings` - [Paper Types](https://www.infraprint.com/docs#settings)
    * `.list()` - retrieve a list of paper settings and sizes
 * `infraprint.packagings` - [Packagings](https://www.infraprint.com/docs#packagings)
